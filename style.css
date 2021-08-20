@@ -1,0 +1,106 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+    border: 0px;
+    font-family: Futura, Geneva, Tahoma, sans-serif;
+}
+
+.white {
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    padding: 30px;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+    .nav-list li {
+        list-style: none;
+        padding: 0px 20px;
+    }
+
+        .nav-list li a {
+            text-decoration: none;
+            color: white;
+        }
+
+            .nav-list li a:hover {
+                color: grey;
+            }
+
+.container {
+    font-family: Futura;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.donate {
+    padding: 20px;
+    background-color: rgba(228, 228, 228, 0.8);
+    border-radius: 10px;
+}
+
+label {
+    display: inline-block;
+    width: 20%;
+    text-align: start;
+}
+
+input, textarea {
+    display: inline-block;
+    width: 70%;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.about {
+    display: block;
+}
+
+img {
+    width: 300px;
+    opacity: 0.8;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.4) 
+    url("https://img.freepik.com/free-photo/child-parent-hands-holding-money-jar-donation-saving-family-finance-plan-concept_49149-1163.jpg?size=626&ext=jpg&ga=GA1.2.2037429681.1628812800");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+}
+
+.content {
+    min-height: 93vh;
+}
+
+.btn {
+    font-family: 'Franklin Gothic';
+    font-size: 12px;
+    border: none;
+    padding: 40px;
+    background: #cdc8b1;
+    letter-spacing: 3px;
+    font-size: 20px;
+    width: 200px;
+    height: auto;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    text-align: center;
+    background-color: rgba(228, 228, 228, 0.8);
+    overflow: hidden;
+    padding-top: 5px;
+}
